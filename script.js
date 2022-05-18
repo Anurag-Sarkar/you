@@ -15,7 +15,7 @@ yes.addEventListener("click",function(){
     },2000 )
     setTimeout(function() {
         document.querySelector("#chaal").style.opacity = 100
-    },2500 )
+    },2200 )
 })
 ayes.addEventListener("click",function(){
     document.querySelector("img").style.width = "3000px"
@@ -28,7 +28,7 @@ ayes.addEventListener("click",function(){
     },2000 )
     setTimeout(function() {
         document.querySelector("#love").style.opacity = 100
-    },2500 )
+    },2200 )
 })
 easter.addEventListener("click",function(){
     
@@ -37,9 +37,4 @@ easter.addEventListener("click",function(){
         
         document.querySelector("#card").style.top = "0"    
     },1000 )
-})
-
-main.addEventListener("click",function(){
-    
-    // location.reload()
 })
