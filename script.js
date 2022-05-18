@@ -1,6 +1,7 @@
 var yes = document.querySelector(".yes")
 var ayes = document.querySelector(".ayes")
 var easter = document.querySelector("#do")
+var main = document.querySelector("#chaal")
 
 yes.addEventListener("click",function(){
     document.querySelector("img").style.scale = 10
@@ -12,10 +13,10 @@ yes.addEventListener("click",function(){
         document.querySelector("#main").style.backgroundColor = "red"
         
         
-    },1000 )
+    },1500 )
     setTimeout(function() {
         document.querySelector("#chaal").style.opacity = 100
-    },1500 )
+    },2000 )
 })
 ayes.addEventListener("click",function(){
     document.querySelector("img").style.scale = 10
@@ -37,4 +38,9 @@ easter.addEventListener("click",function(){
         
         document.querySelector("#card").style.top = "0"    
     },1000 )
+})
+
+main.addEventListener("click",function(){
+    
+    location.reload()
 })
