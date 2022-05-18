@@ -3,7 +3,7 @@ var ayes = document.querySelector(".ayes")
 var easter = document.querySelector("#do")
 
 yes.addEventListener("click",function(){
-    document.querySelector("img").style.scale = 10
+    document.querySelector("img").style.width = "3000px"
     document.querySelector("#ans").style.opacity = 0
     document.querySelector("#do").style.opacity = 0
     setTimeout(function() {
@@ -18,7 +18,7 @@ yes.addEventListener("click",function(){
     },2500 )
 })
 ayes.addEventListener("click",function(){
-    document.querySelector("img").style.scale = 10
+    document.querySelector("img").style.width = "3000px"
     document.querySelector("#ans").style.opacity = 0
     document.querySelector("#do").style.opacity = 0
     setTimeout(function() {
