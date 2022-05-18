@@ -41,5 +41,5 @@ easter.addEventListener("click",function(){
 
 main.addEventListener("click",function(){
     
-    location.reload()
+    // location.reload()
 })
